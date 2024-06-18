@@ -1,0 +1,60 @@
+.container {
+    width: 500px;
+    height: 500px ;
+    background-color: aqua;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box1 {
+    flex:1;
+    background-color: red;
+    font-weight: bold;
+    margin-bottom: 30px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 4px;
+    right:4px;
+}
+
+.box2 {
+    flex:1;
+    background-color: red;
+    font-weight: bold;
+    margin-bottom: 30px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+.text2 {
+    position: absolute;
+    bottom: 4px;
+    left:4px;
+}
+
+.box3 {
+   flex:1;
+    background-color: red;
+    font-weight: bold;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+.text3 {
+    position: absolute;
+    bottom: 4px;
+    right:4px;
+}
+
+p {
+    margin: 0;
+}

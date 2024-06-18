@@ -1,0 +1,157 @@
+.container {
+    width: 900px;
+    height: 500px ;
+    background-color: white;
+    border: 1px solid gray;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+}
+
+.box1 {
+  
+    margin: 5px;
+    height: 450px ;
+    background-color: white;
+    font-weight: bold;
+    position: relative;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+.block {
+    padding: 10px;
+}
+
+.Image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.Image img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.textPrice {
+    display: flex;
+    align-items: center;
+}
+
+.priceTotal {
+    font-size: 20px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.priceMonthly {
+    font-size: 15px;
+    background-color:gold;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+p {
+    margin: 0;
+}
+
+.textName {
+    color:dodgerblue;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.textDesc {
+    position: absolute;
+    font-weight: lighter;
+}
+
+.otDilera {
+    display: flex;
+    margin-top: 30px;
+}
+
+.Novaya {
+    margin-right: 5px;
+    background-color: green;
+    color: white;
+    font-weight: lighter;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.otDilera2 {
+    background-color: gray;
+    color: white;
+    font-weight: lighter;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.textCity {
+    font-weight: lighter;
+    color: darkgray;
+    position: absolute;
+    bottom: 40px;
+}
+
+.textDate {
+    display: flex;
+    align-items: center;
+}
+
+.date {
+    font-weight: lighter;
+    color: darkgray;
+    position: absolute;
+    bottom: 10px;
+    margin-right: 10px;
+}
+
+.viewIcon {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 70px;
+}
+
+.viewIcon img {
+    height: 15px;
+    width: 20px;
+}
+
+.viewsTotal {
+    font-weight: lighter;
+    color: darkgray;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 95px;
+}
+
+.icon1 {
+    font-weight: lighter;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 230px;
+}
+
+.icon1 img {
+    height: 20px;
+    width: 20px;
+    
+}
+
+.icon2 {
+    font-weight: lighter;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 250px;
+}
+
+.icon2 img {
+    height: 20px;
+    width: 20px;
+}
